@@ -1,0 +1,22 @@
+{
+  "name": "set_up_a_project_an_its_dependencies",
+  "version": "1.0.0",
+  "description": "Practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/modina.inessa/set-up-a-project_dependencies.git"
+  },
+  "author": "Inessa Modina",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  }
+}
